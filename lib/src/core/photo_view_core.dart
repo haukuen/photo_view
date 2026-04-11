@@ -130,8 +130,8 @@ class PhotoViewCoreState extends State<PhotoViewCore>
 
   late ScaleBoundaries cachedScaleBoundaries = widget.scaleBoundaries;
 
-  late final Size imageSize;
-  late final double imageScale;
+  late Size imageSize;
+  late double imageScale;
 
   void handleScaleAnimation() {
     scale = _scaleAnimation!.value;
